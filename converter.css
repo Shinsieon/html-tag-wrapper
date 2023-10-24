@@ -1,0 +1,16 @@
+textarea {
+  height: 150px;
+  border-radius: 5px;
+}
+input {
+  border-radius: 5px;
+  border: 1px solid #eeeeee;
+}
+#wrapBtn {
+  width: 100%;
+  height: 30px;
+  background-color: tomato;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}

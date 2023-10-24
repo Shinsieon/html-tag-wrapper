@@ -1,18 +1,28 @@
 <html>
+  <head>
+    <link href="converter.css" rel="stylesheet" />
+  </head>
   <body>
     <h1>Html Tag Wrapper</h1>
-    <input
-      type="text"
-      ,
-      id="htmlSource"
-      placeholder="insert html source code"
-    />
-    <input type="text" , placeholder="insert keywords as an array" />
-    <input type="text" , placeholder="insert a tag name" />
+    <div style="display: flex; flex-direction: column; gap: 8px; width: 300px">
+      <textarea
+        type="text"
+        ,
+        id="htmlSource"
+        placeholder="insert html source code"
+      ></textarea>
+      <input
+        type="text"
+        ,
+        id="keywords"
+        placeholder="insert keywords as an array. ex) ['one', 'two']"
+      />
+      <input type="text" , placeholder="insert a tag name. ex)input" />
 
-    <button id="wrapBtn">Wrap it!</button>
+      <input type="button" id="wrapBtn" value="Wrap it!"></button>
 
-    <textarea style="width: 100%; height: 200px" id="ta"></textarea>
+      <textarea id="ta"></textarea>
+    </div>
 
     <script src="converter.js"></script>
   </body>
