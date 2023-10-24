@@ -1,5 +1,5 @@
 # html-tag-wrapper
-Chrome Extension - Find the keyword that you inserted and convert it to a wrapped tag
+Chrome Extension - Find the keyword that you inserted and convert it to a wrapped tag  
 티스토리 블로그를 작성하는데 도움이 되는 크롬 익스텐션입니다.
 
 자세한 설명은 블로그에서..
